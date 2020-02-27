@@ -1,0 +1,28 @@
+.main_page > div > p > a:link {
+    color: #2a24bf;
+}
+.main_page > div > p > a:visited {
+    color: #506b7a;
+}
+.main_page > div > p > a:hover {
+    color: #820087;
+}
+.main_page > div > p > a:active {
+    color: #7f2206;
+}
+.n-bt {
+    margin:15px !important;
+}
+.h-bt {
+    margin:15px !important;
+    visibility: hidden;
+}
+@media screen and (max-width: 1000px) {
+    .n-bt {
+        margin:0px !important;
+    }
+    .h-bt {
+        margin:0px !important;
+        visibility: hidden;
+    }
+}
