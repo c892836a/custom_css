@@ -33,6 +33,6 @@
     }
 }
 
-img {
+a>img {
     max-width: 1200px !important;
 }
